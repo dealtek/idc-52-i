@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	
+	
+	days <br>
+<span id="renewdayremaining"></span><br>
+	<span id="renewdayremaining2"></span><br>
+	
+	show me <span id="show1"></span><br>
+	
+	<script>
+	
+		//var diff = xday - today;
+// OLD YO 
+//var renewdays = diff / 1000 / 60 / 60 / 24;
+// hmmm var renewdays = Math.round(diff / 1000 / 60 / 60 / 24);
+
+		
+var renewdays1 = -90.9;
+		
+		renewdays2 = Math.round(renewdays1);
+		
+		
+		
+		
+		var renewdaysshowtmp = renewdays1;
+		var renewdaysshowtmp2 = renewdays2;
+		
+		document.getElementById('renewdayremaining').textContent = renewdays1;	
+		document.getElementById('renewdayremaining2').textContent = renewdays2;	
+		//var color = 'none';
+		
+		
+		
+		if(
+			
+		renewdays2 < 0 && renewdays2 >= -90
+		
+		){
+		   
+		   document.getElementById('show1').textContent = renewdays2 + " is more or equal than -90";	
+		}
+		
+//		else if(renewdays2 == 90){
+//			  document.getElementById('show1').textContent = renewdays2 + " equal";	
+//		   }
+		
+		
+		else{
+			   
+			 document.getElementById('show1').textContent = renewdays2 + " less than -90";	  
+		   }
+		
+		
+		
+		
+		
+	
+	</script>
+
+	
+	
+<!--
+	
+	if (
+renewdays < 0 && renewdays > -91 ) {
+	var color = 'red';
+	renewdaystext = "( Your Drug Program Expired! )";
+
+} else if (
+renewdays < -91 ) {
+	var color = 'red';
+	renewdaystext = "( Your Drug Program Expired! Call to renew: (800) 243 7669 )" ;
+-->
+
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
