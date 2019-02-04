@@ -160,10 +160,15 @@ not winphone
     <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
     <gap:plugin name="cordova-plugin-vibration" source="npm" />
 	
-	<content src="https://idcapp.com" />
+<!--	<content src="https://idcapp.com" />-->
 	<allow-navigation href="https://idcapp.com/*" />
+	
+<!--	new 2019-->
+	
+	<gap:plugin name="cordova plugin add cordova-plugin-whitelist" source="npm"/>
+	<gap:plugin name="cordova prepare" source="npm"/>
 
-	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+<!--	<gap:plugin name="cordova-plugin-whitelist" source="npm"/> old yo-->
 	<gap:plugin name="cordova-plugin-statusbar" source="npm" />
 	
 	<!-- <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" />
