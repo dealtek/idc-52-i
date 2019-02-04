@@ -164,9 +164,11 @@ not winphone
 	<allow-navigation href="https://idcapp.com/*" />
 	
 <!--	new 2019-->
+
+	    <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
 	
-	<gap:plugin name="cordova plugin add cordova-plugin-whitelist" source="npm"/>
-	<gap:plugin name="cordova prepare" source="npm"/>
+<!--	<gap:plugin name="cordova plugin add cordova-plugin-whitelist" source="npm"/>-->
+<!--	<gap:plugin name="cordova prepare" source="npm"/>-->
 
 <!--	<gap:plugin name="cordova-plugin-whitelist" source="npm"/> old yo-->
 	<gap:plugin name="cordova-plugin-statusbar" source="npm" />
