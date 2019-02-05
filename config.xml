@@ -5,6 +5,8 @@
     versionCode = "152"
     version     = "1.5.2"
 	android-versionCode="2" >
+	<name>IDCapp</name>
+	<description>Independent Drivers Consortium</description>
 	
 <!--just android ios-->
 	
@@ -18,11 +20,8 @@ not winphone
 	
     <!-- versionCode is optional and Android only DM iFrame v3 -->
 
-    <name>IDCapp</name>
 	
 	<!--idcapp v01-->
-
-    <description>Independent Drivers Consortium</description>
 
 <!-- new ios -->
 
