@@ -4,7 +4,7 @@
     id          = "com.idcapp.basic"
     versionCode = "152"
     version     = "1.5.2"
-	android-versionCode="2" >
+	 >
 	<name>IDCapp</name>
 	<description>Independent Drivers Consortium</description>
 	
