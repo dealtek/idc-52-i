@@ -20,7 +20,6 @@ not winphone
 	
     <!-- versionCode is optional and Android only DM iFrame v3 -->
 
-	
 	<!--idcapp v01-->
 
 <!-- new ios -->
@@ -161,6 +160,7 @@ not winphone
 	
 <!--	<content src="https://idcapp.com" />-->
 	<allow-navigation href="https://idcapp.com/*" />
+	<allow-navigation href="https://nortonmedical.com/*" />	
 	
 <!--	new 2019-->
 
